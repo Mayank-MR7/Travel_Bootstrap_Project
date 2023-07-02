@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light cus-navbar">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search your trip"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./image/courosel -1.jpg" class="d-block w-100" alt="img1">
+                    <div class="carousel-caption">
+                        <h3>Exploring the Wonders of Nature</h3>
+                        <p>Venture into the breathtaking landscapes, immerse yourself in the beauty of untouched nature,
+                            and witness awe-inspiring vistas that will leave you in awe.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/corosel -2.jpg" class="d-block w-100" alt="img2">
+                    <div class="carousel-caption">
+                        <h3>Embracing Cultural Diversity Around the World</h3>
+                        <p>Embark on a journey to discover the rich tapestry of cultures, traditions, and histories that
+                            make our world a vibrant and diverse place. Embrace new experiences and forge connections
+                            with people from different backgrounds.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/courosel -3.jpg" class="d-block w-100" alt="img3">
+                    <div class="carousel-caption">
+                        <h3>Unforgettable Adventures Await</h3>
+                        <p>Seek thrills, step outside your comfort zone, and create memories that will last a lifetime.
+                            From adrenaline-pumping activities to off-the-beaten-path discoveries, prepare yourself for
+                            an unforgettable adventure.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section>
+            <!-- grid & card -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./image/card-1- luxury-hotels.jpg" class="card-img-top"
+                                alt="luxury 5 star hotels">
+                            <div class="card-body">
+                                <h5 class="card-title">Luxury 5 star Hotels</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+                                    animi odit dolores reiciendis. Accusamus facilis maiores eos?</p>
+                                <a href="#" class="btn btn-primary">Explore more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./image/card-2-food-buffet.jpg" class="card-img-top" alt="food buffet">
+                            <div class="card-body">
+                                <h5 class="card-title">Luxury Buffet</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repudiandae odit commodi dolores incidunt, optio numquam accusantium molestiae.</p>
+                                <a href="#" class="btn btn-primary">Explore more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./image/card-3-Adventures-sports.jpg" class="card-img-top" alt="adventure sports">
+                            <div class="card-body">
+                                <h5 class="card-title">Adventure sports</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                                    labore omnis nobis tempore et cumque amet facere?</p>
+                                <a href="#" class="btn btn-primary">Explore more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./image/card-4-Live-concert.jpg" class="card-img-top" alt="live concerts">
+                            <div class="card-body">
+                                <h5 class="card-title">Live Concert</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut
+                                    impedit praesentium aliquam quidem laborum deleniti sit distinctio.</p>
+                                <a href="#" class="btn btn-primary">Explore more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./image/card-5-sight-seeing.jpg" class="card-img-top" alt="sight-seeing">
+                            <div class="card-body">
+                                <h5 class="card-title">Sightseeing</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                                    consequatur assumenda voluptate? Adipisci accusamus illo doloremque id!</p>
+                                <a href="#" class="btn btn-primary">Explore more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./image/card-6-beaches.jpg" class="card-img-top" alt="beaches">
+                            <div class="card-body">
+                                <h5 class="card-title">Wonderful Beaches</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                                    sapiente deleniti neque soluta eos accusantium, recusandae minima.</p>
+                                <a href="#" class="btn btn-primary">Explore more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
